@@ -2,28 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anniversary Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: linear-gradient(to right, #ffdde1, #ee9ca7);
-      color: #333;
-      padding: 50px;
-    }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.2em;
-    }
-  </style>
+  <title>Happy Anniversary Claudia â¤ï¸</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🎉 Happy Anniversary! 🎉</h1>
-  <p>Welcome to my first GitHub Pages website.</p>
-  <p>More content coming soon 🚀</p>
+  <div class="container">
+    <h1>Happy Anniversary Claudia â¤ï¸</h1>
+    <p class="message">
+      Claudia, every day with you feels like the most beautiful chapter of my life. 
+      From our laughter to our quiet moments, youâ€™ve filled my world with love, peace, and joy. 
+      Today we celebrate not just our anniversary, but the bond that grows stronger with each heartbeat. 
+      You are my best friend, my partner, and my forever love. 
+      Hereâ€™s to us, to all the memories weâ€™ve created, and to the endless adventures still waiting for us. 
+      Happy Anniversary, my love â€” always and forever, itâ€™s you and me. ðŸ’–
+    </p>
+
+    <!-- Photo Gallery -->
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Memory 1">
+      <img src="images/photo2.jpg" alt="Memory 2">
+      <img src="images/photo3.jpg" alt="Memory 3">
+    </div>
+
+    <!-- Background Music -->
+    <button id="music-btn">ðŸŽµ Play/Pause</button>
+    <audio id="bg-music" autoplay loop>
+      <source src="music/romantic.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
